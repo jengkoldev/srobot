@@ -28,7 +28,7 @@ const App = async () => {
 
 
 
-    await Timer('33:59')
+    await Timer('45:59')
 
     console.time('Atc')
     await Check(page, target.link);
