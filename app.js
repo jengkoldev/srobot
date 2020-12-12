@@ -28,16 +28,15 @@ const App = async () => {
 
 
 
-    await Timer('34:59')
+    await Timer('33:59')
 
     console.time('Atc')
     await Check(page, target.link);
     console.timeEnd('Atc')
 
-    return
-    console.time('Atc')
-    await Atc(page, target.link);
-    console.timeEnd('Atc')
+    // console.time('Atc')
+    // await Atc(page, target.link);
+    // console.timeEnd('Atc')
 
     await _BROWSER.close();
 }
